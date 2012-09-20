@@ -1,10 +1,9 @@
 
-/* ///////////////////////////////////////////////////////////////////////// */
+// ////////////////////////////////////////////////////////////////////////////
 
-* {  
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-}
+*
+  -moz-box-sizing: border-box
+  box-sizing: border-box
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
 p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
@@ -12,329 +11,286 @@ img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figure, figcaption, hgroup, 
-menu, footer, header, nav, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
+menu, footer, header, nav, section, summary, time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  vertical-align: baseline
 
 article, aside, canvas, figure, figure img, figcaption, hgroup,
-footer, header, nav, section, audio, video {
-  display: block;
-}
+footer, header, nav, section, audio, video
+  display: block
 
-audio, canvas, video {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-}
+audio, canvas, video
+  display: inline-block
+  *display: inline
+  *zoom: 1
 
-audio:not([controls]) {
-  display: none;
-}
+audio:not([controls])
+  display: none
 
-[hidden] {
-  display: none;
-}
+[hidden]
+  display: none
 
-a img {
-  border: 0;
-}
+a img
+  border: 0
 
-abbr[title] {
-  border-bottom: 1px dotted;
-}
+abbr[title]
+  border-bottom: 1px dotted
 
-b, strong {
-  font-weight: bold;
-}
+b, strong
+  font-weight: bold
 
-blockquote {
-  margin: 1em 40px;
-}
+blockquote
+  margin: 1em 40px
 
-dfn {
-  font-style: italic;
-}
+dfn
+  font-style: italic
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
+hr
+  display: block
+  height: 1px
+  border: 0
+  border-top: 1px solid #ccc
+  margin: 1em 0
+  padding: 0
 
-ins {
-  background: #ff9;
-  color: #000;
-  text-decoration: none;
-}
+ins
+  background: #ff9
+  color: #000
+  text-decoration: none
 
-mark {
-  background: #ff0;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
-}
+mark
+  background: #ff0
+  color: #000
+  font-style: italic
+  font-weight: bold
 
-pre, code, kbd, samp {
-  font-family: Consolas, monospace, serif;
-  _font-family: Consolas, 'courier new', monospace;
-  font-size: 1em;
-}
+pre, code, kbd, samp
+  font-family: Consolas, monospace, serif
+  _font-family: Consolas, 'courier new', monospace
+  font-size: 1em
 
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
+pre
+  white-space: pre-wrap
+  word-wrap: break-word
 
-q {
-  quotes: none;
-}
+q
+  quotes: none
 
 q:before,
-q:after {
-  content: "";
-  content: none;
-}
+q:after
+  content: none
 
-small {
-  font-size: 85%;
-}
+small
+  font-size: 85%
 
 sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
+sup
+  font-size: 75%
+  line-height: 0
+  position: relative
+  vertical-align: baseline
 
-sup {
-  top: -0.5em;
-}
+sup
+  top: -0.5em
 
-sub {
-  bottom: -0.25em;
-}
+sub
+  bottom: -0.25em
 
-ul, ol {
-  margin: 1em 0;
-  padding: 0 0 0 40px;
-}
+ul, ol
+  margin: 1em 0
+  padding: 0 0 0 40px
 
-dd {
-  margin: 0 0 0 40px;
-}
+dd
+  margin: 0 0 0 40px
 
 nav ul,
-nav ol {
-  list-style: none;
-  list-style-image: none;
-  margin: 0;
-  padding: 0;
-}
+nav ol
+  list-style: none
+  list-style-image: none
+  margin: 0
+  padding: 0
 
-img {
-  border: 0;
-  vertical-align: middle;
-  -ms-interpolation-mode: bicubic;
-}
+img
+  border: 0
+  vertical-align: middle
+  -ms-interpolation-mode: bicubic
 
-svg:not(:root) {
-  overflow: hidden;
-}
+svg:not(:root)
+  overflow: hidden
 
-label {
-  cursor: pointer;
-}
+label
+  cursor: pointer
 
-legend {
-  white-space: normal;
-  *margin-left: -7px;
-}
+legend
+  white-space: normal
+  *margin-left: -7px
 
 button, input,
-select, textarea {
-  font-size: 100%;
-  margin: 0;
-  vertical-align: baseline;
-  *vertical-align: middle;
-}
+select, textarea
+  font-size: 100%
+  margin: 0
+  vertical-align: baseline
+  *vertical-align: middle
 
 button,
-input {
-  line-height: normal;
-}
+input
+  line-height: normal
 
 button,
 input[type="button"],
 input[type="reset"],
-input[type="submit"] {
-  cursor: pointer;
-  -webkit-appearance: button;
-  *overflow: visible;
-}
+input[type="submit"]
+  cursor: pointer
+  -webkit-appearance: button
+  *overflow: visible
 
 button[disabled],
-input[disabled] {
-  cursor: default;
-}
+input[disabled]
+  cursor: default
 
 input[type="checkbox"],
-input[type="radio"] {
-  *width: 13px;
-  *height: 13px;
-  padding: 0;
-  box-sizing: border-box;
-}
+input[type="radio"]
+  *width: 13px
+  *height: 13px
+  padding: 0
+  box-sizing: border-box
 
-input[type="search"] {
-  -webkit-appearance: textfield;
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
+input[type="search"]
+  -webkit-appearance: textfield
+  -webkit-box-sizing: content-box
+  -moz-box-sizing: content-box
+  box-sizing: content-box
 
 input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-}
+input[type="search"]::-webkit-search-cancel-button
+  -webkit-appearance: none
 
 button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
+input::-moz-focus-inner
+  border: 0
+  padding: 0
 
-textarea {
-  overflow: auto;
-  vertical-align: top;
-  resize: vertical;
-}
+textarea
+  overflow: auto
+  vertical-align: top
+  resize: vertical
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+table
+  border-collapse: collapse
+  border-spacing: 0
 
-td {
-  vertical-align: top;
-}
+td
+  vertical-align: top
 
-/* ///////////////////////////////////////////////////////////////////////// */
+// ////////////////////////////////////////////////////////////////////////////
 
-::-moz-selection    { background: #1D1D1D; color: #fff; text-shadow: none; }
-img::-moz-selection { background: transparent; }
+::-moz-selection
+  background: #1D1D1D
+  color: #fff
+  text-shadow: none
 
-::selection         { background: #1D1D1D; color: #fff; text-shadow: none; }
-img::selection      { background: transparent; }
+img::-moz-selection
+  background: transparent
 
-/* ///////////////////////////////////////////////////////////////////////// */
+::selection
+  background: #1D1D1D
+  color: #fff
+  text-shadow: none
+
+img::selection
+  background: transparent
+
+// ////////////////////////////////////////////////////////////////////////////
 
 a:link,
-a:visited {
-  color: #33b5e5;
-  font-weight: bold;
-  text-decoration: none;
-}
+a:visited
+  color: #33b5e5
+  font-weight: bold
+  text-decoration: none
 
 a:hover,
-a:focus {
-  color: #2E3192;
-}
+a:focus
+  color: #2E3192
 
-a img {
-  border: none;
-}
+a img
+  border: none
 
-/* ///////////////////////////////////////////////////////////////////////// */
+// ////////////////////////////////////////////////////////////////////////////
 
-html {
-  font-size: 62.5%;
-  -webkit-tap-highlight-color: #33b5e5;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
+html
+  font-size: 62.5%
+  -webkit-tap-highlight-color: #33b5e5
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
 
-body {
-  font: normal 1.5em/1.618 Arial, sans-serif;
-  color: #3D3D3D;
-  position: relative;
-  overflow: hidden;
-  overflow-y: scroll;
-  background: #FFF;
-}
+body
+  font: normal 1.5em/1.618 Arial, sans-serif
+  color: #3D3D3D
+  position: relative
+  overflow: hidden
+  overflow-y: scroll
+  background: #FFF
 
-/* ///////////////////////////////////////////////////////////////////////// */
+// ////////////////////////////////////////////////////////////////////////////
 
-.chromeframe {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+.chromeframe
+  margin: 0.2em 0
+  background: #ccc
+  color: #000
+  padding: 0.2em 0
 
-/* ///////////////////////////////////////////////////////////////////////// */
-/* Hide from both screenreaders and browsers */
+// ////////////////////////////////////////////////////////////////////////////
+// Hide from both screenreaders and browsers
 
-.hidden {
-  display: none !important;
-  visibility: hidden;
-}
+.hidden
+  display: none !important
+  visibility: hidden
 
-/* ///////////////////////////////////////////////////////////////////////// */
-/* Hide only visually, but have it available for screenreaders */
+// ////////////////////////////////////////////////////////////////////////////
+// Hide only visually, but have it available for screenreaders
 
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
+.visuallyhidden
+  border: 0
+  clip: rect(0 0 0 0)
+  height: 1px
+  margin: -1px
+  overflow: hidden
+  padding: 0
+  position: absolute
+  width: 1px
 
-/* ///////////////////////////////////////////////////////////////////////// */
-/* Extends the .visuallyhidden class to allow the element to be focusable */
-/* when navigated to via the keyboard */
+// ////////////////////////////////////////////////////////////////////////////
+// Extends the .visuallyhidden class to allow the element to be focusable
+// when navigated to via the keyboard
 
 .visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-}
+.visuallyhidden.focusable:focus
+  clip: auto
+  height: auto
+  margin: 0
+  overflow: visible
+  position: static
+  width: auto
 
-/* ///////////////////////////////////////////////////////////////////////// */
-/* Hide visually and from screenreaders, but maintain layout */
+// ////////////////////////////////////////////////////////////////////////////
+// Hide visually and from screenreaders, but maintain layout
 
-.invisible {
-  visibility: hidden;
-}
+.invisible
+  visibility: hidden
 
-/* ///////////////////////////////////////////////////////////////////////// */
-/* Contain floats */
+// ////////////////////////////////////////////////////////////////////////////
+// Contain floats
 
 .clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
+.clearfix:after
+  content: ""
+  display: table
 
-.clearfix:after {
-  clear: both;
-}
+.clearfix:after
+  clear: both
 
-.clearfix {
-  *zoom: 1;
-}
+.clearfix
+  *zoom: 1
+
